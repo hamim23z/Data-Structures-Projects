@@ -10,8 +10,11 @@ Before Starting:
 Read all of Chapter 3.
 
 Files that you must write and turn in:
-1.	sequence1.h: The header file for the sequence class. Actually, you don't have to write much of this file. Decide on appropriate private member variables, and declare these in the sequence class definition at the bottom of the header file. If some of your member functions are implemented as inline functions, then you may put those implementations in this file too. 
-2.	sequence1.cpp: The implementation file for this first sequence class. You will write all of this file, which will have the implementations of all the sequence's member functions. 
+1.	sequence1.h: The header file for the sequence class. Actually, you don't have to write much of this file. Decide on appropriate private member variables, 
+and declare these in the sequence class definition at the bottom of the header file. If some of your member functions are implemented as inline functions, then 
+you may put those implementations in this file too. 
+2.	sequence1.cpp: The implementation file for this first sequence class. You will write all of this file, which will have the implementations of all the sequence's 
+member functions. 
 
 Other files that you may find helpful:
 1.	sequence_test.cpp: A simple interactive test program. 
