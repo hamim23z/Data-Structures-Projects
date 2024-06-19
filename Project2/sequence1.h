@@ -72,16 +72,19 @@
 #define MAIN_SAVITCH_SEQUENCE_H
 #include <cstdlib> // Provides size_t
 
-namespace main_savitch_3 {
-class sequence {
+namespace main_savitch_3 { // using namespace of main_savitch_3
+class sequence {           // class name is sequence
 public:
   // TYPEDEFS and MEMBER CONSTANTS
-  typedef double value_type;
-  typedef size_t size_type;
+  typedef double value_type; // variable called value_type and has value double
+  typedef size_t size_type;  // variable called size_type and has value size_t
   static const size_type CAPACITY = 30;
+  // variable called CAPACITY and has value 30. can use size_type again
+  // because I used typedef in line 80
 
   // CONSTRUCTOR
-  sequence();
+  sequence(); // default constructor here. constructor must have the same name
+              // as the class
 
   // MODIFICATION MEMBER FUNCTIONS
   void start();
@@ -89,16 +92,26 @@ public:
   void insert(const value_type &entry);
   void attach(const value_type &entry);
   void remove_current();
+  // member functions that will be implemented in sequence1.cpp. can use
+  // value_type again because it was used as typedef in line 79. also takes
+  // const reference and &entry is a pass by reference.
 
   // CONSTANT MEMBER FUNCTIONS
   size_type size() const;
   bool is_item() const;
   value_type current() const;
+  // more member functions that will be implemented in sequence1.cpp. but these
+  // are const member functions so we do not change the value of them
 
 private:
   value_type data[CAPACITY];
   size_type used;
   size_type current_index;
+  // these are private member variables. value_type is from line 79. size_type
+  // is from line 80. value_type is a double. size_type is a size_t. (WE ARE
+  // ALLOWED TO CALL THEM LIKE THIS BECAUSE WE USED TYPEDEF WHICH ACTS LIKE AN
+  // ALIAS)
 };
 } // namespace main_savitch_3
+
 #endif
