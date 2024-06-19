@@ -1,4 +1,4 @@
-// FILE: sequence_test.cxx
+// FILE: sequence_test.cpp
 // An interactive test program for the new sequence class
 #include "sequence1.h" // With value_type defined as double
 #include <cctype>      // Provides toupper
@@ -24,7 +24,7 @@ double get_number();
 // number has been read, echoed to the screen, and returned by the function.
 
 int main() {
-  sequence test; // A sequence that we’ll perform tests on
+  sequence test; // A sequence that we�ll perform tests on
   char choice;   // A command character entered by the user
 
   cout << "I have initialized an empty sequence of real numbers." << endl;
