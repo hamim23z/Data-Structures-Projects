@@ -1,4 +1,4 @@
-// FILE: sequenceexam.cxx
+// FILE: sequence_exam.cpp
 // Written by: Michael Main (main@colorado.edu) - Oct 22, 1997
 // Non-interactive test program for the sequence class from Section 3.2 of
 // "Data Structures and Other Objects".
