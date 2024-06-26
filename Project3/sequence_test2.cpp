@@ -1,4 +1,4 @@
-// FILE: sequence_test.cpp
+// FILE: sequence_test2.cpp
 // An interactive test program for the new sequence class
 #include "sequence2.h" // With value_type defined as double
 #include <cctype>      // Provides toupper
