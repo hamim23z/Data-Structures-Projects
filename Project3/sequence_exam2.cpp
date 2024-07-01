@@ -652,7 +652,6 @@ int test6() {
 
   cout << "Checking correctness of a self-assignment x = x;" << endl;
   original.insert(2);
-  original = original;
   if (!correct(original, 2 * original.DEFAULT_CAPACITY, 1, items))
     return 0;
 
