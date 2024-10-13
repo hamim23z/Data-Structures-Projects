@@ -1,3 +1,6 @@
-Data Structures Projects
+These are my notes for my Data Structures course at The City College of New York. 
+  - Course: CSC 212
+  - Professor: Jun Wu
+  - Semester: Summer 2024
 
-There were 6 projects that we had to do, but Project 5 was scrapped. That is why there is no Project 5 folder listed. 
+**Project 5 was scrapped, that's why it's not included.**
